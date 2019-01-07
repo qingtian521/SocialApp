@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <com.library.titlebarlibrary.TitleBar
+        android:id="@+id/titleBar"
+        app:titleText="这是一个标题"
+        app:leftImg_drawable="@drawable/ic_return"
+        app:leftImg_marginLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>
