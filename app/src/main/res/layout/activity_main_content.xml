@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.library.titlebarlibrary.TitleBar
+        android:background="@drawable/title_bar_background"
+        app:leftImg_drawable="@drawable/ic_menu"
+        app:leftImg_marginLeft="10dp"
+        android:id="@+id/title_bar"
+        app:titleText="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <com.stone.card.library.CardSlidePanel
+        android:id="@+id/cardSlidePanel"
+        android:layout_width="match_parent"
+        card:yOffsetStep="6dp"
+        card:bottomMarginTop="38dp"
+        card:itemMarginTop="1dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>
